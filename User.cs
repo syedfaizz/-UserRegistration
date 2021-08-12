@@ -15,12 +15,12 @@ namespace UserRegistration
         public static bool ValidateFirstName()
         {
             Regex regex = new Regex(FIRST_NAME);
-            return regex.IsMatch("fasial");
+            return regex.IsMatch("faisal");
         }
         public static bool ValidateLastName()
         {
             Regex regex = new Regex(LAST_NAME);
-            return regex.IsMatch("KUMAR");
+            return regex.IsMatch("Sayed");
         }
         public static bool ValidateEmail()
         {
