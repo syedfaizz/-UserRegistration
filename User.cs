@@ -20,7 +20,7 @@ namespace UserRegistration
         public static bool ValidateLastName()
         {
             Regex regex = new Regex(LAST_NAME);
-            return regex.IsMatch("KUMAR");
+            return regex.IsMatch("Sayed");
         }
         public static bool ValidateEmail()
         {
@@ -32,6 +32,13 @@ namespace UserRegistration
         {
             Regex regex = new Regex(MOBILE);
             return regex.IsMatch("91 8967904554");
+            public static bool PasswordR1()
+            {
+                Regex regex = new Regex(PASSWORD_R1);
+                return regex.IsMatch("FSxyb302");
+            }
         }
     }
-}
+
+
+
