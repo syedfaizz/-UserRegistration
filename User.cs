@@ -47,5 +47,10 @@ namespace UserRegistration
                 Regex regex = new Regex(PASSWORD_R3);
                 return regex.IsMatch("akXybxy3");
             }
+                public static bool PasswordR4()
+                {
+                    Regex regex = new Regex(PASSWORD_R4);
+                    return regex.IsMatch("akXs@bx3");
+                }
+            }
         }
-    }
