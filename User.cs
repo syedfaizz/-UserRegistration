@@ -37,8 +37,12 @@ namespace UserRegistration
                 Regex regex = new Regex(PASSWORD_R1);
                 return regex.IsMatch("FSxyb302");
             }
+            public static bool PasswordR2()
+            {
+                Regex regex = new Regex(PASSWORD_R2);
+                return regex.IsMatch("abXyb302");
+            }
         }
     }
-
 
 
