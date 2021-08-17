@@ -32,6 +32,7 @@ namespace UserRegistration
         {
             Regex regex = new Regex(MOBILE);
             return regex.IsMatch("91 8967904554");
+        }
             public static bool PasswordR1()
             {
                 Regex regex = new Regex(PASSWORD_R1);
